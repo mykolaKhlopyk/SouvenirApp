@@ -4,20 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9373a28-c414-423b-88e5-f3388608cacd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/geeksforless/AppTest.java" afterDir="false" />
+    <list default="true" id="b9373a28-c414-423b-88e5-f3388608cacd" name="Changes" comment="implemented DAOs by using singleton">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/dao/PreservingDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/dao/impl/FileDAOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/dao/impl/PreservingFiIeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/service/impl/ProducerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/service/impl/SouvenirsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-producers.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-souvenirs-names.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test-souvenirs.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geeksforless/service/impl/ProducerServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geeksforless/service/impl/ServicesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/geeksforless/service/impl/SouvenirsServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geeksforless/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geeksforless/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,25 +47,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "ruby.rails.projectView.checked": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/geeksForLess/SouvenirsStore/src/main/java/com/geeksforless&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\geeksForLess\SouvenirsStore\src\main\java\com\geeksforless" />
+      <recent name="C:\workspace\geeksForLess\SouvenirsStore\src\main\java\com\geeksforless\domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.geeksforless.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SouvenirsServiceImplTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geeksforless.App" />
       <module name="SouvenirsStore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geeksforless.*" />
+          <option name="PATTERN" value="com.geeksforless.dao.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,8 +89,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SouvenirsStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geeksforless.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geeksforless" />
+      <option name="MAIN_CLASS_NAME" value="com.geeksforless.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SouvenirsStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geeksforless.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geeksforless.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.geeksforless.service.impl.ProducerServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SouvenirsServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SouvenirsStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geeksforless.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geeksforless.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.geeksforless.service.impl.SouvenirsServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.geeksforless.service.impl in SouvenirsStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SouvenirsStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geeksforless.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geeksforless.service.impl" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SouvenirsServiceImplTest" />
+        <item itemvalue="JUnit.com.geeksforless.service.impl in SouvenirsStore" />
+        <item itemvalue="JUnit.ProducerServiceImplTest" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -71,12 +166,84 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690311842296</updated>
-      <workItem from="1690311844555" duration="926000" />
+      <workItem from="1690311844555" duration="46094000" />
+      <workItem from="1690807131012" duration="7798000" />
+      <workItem from="1690975246002" duration="24481000" />
+      <workItem from="1691057100370" duration="23955000" />
+      <workItem from="1691183461167" duration="2413000" />
+      <workItem from="1691234551672" duration="7128000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1690313817230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690313817230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added entities">
+      <created>1690320457794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690320457794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added exceptions">
+      <created>1691322334034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322334034</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added several countries">
+      <created>1691322374325</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322374325</updated>
+    </task>
+    <task id="LOCAL-00005" summary="files for future fileDAO">
+      <created>1691322432256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322432256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update entities">
+      <created>1691322479691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322479691</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added services with requiring operations">
+      <created>1691322588368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322588368</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added DAOs interfaces">
+      <created>1691322771632</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322771632</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implemented DAOs by using singleton">
+      <created>1691322815932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691322815932</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.bin" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -89,7 +256,35 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="added entities" />
+    <MESSAGE value="added exceptions" />
+    <MESSAGE value="added several countries" />
+    <MESSAGE value="files for future fileDAO" />
+    <MESSAGE value="update entities" />
+    <MESSAGE value="added services with requiring operations" />
+    <MESSAGE value="added DAOs interfaces" />
+    <MESSAGE value="implemented DAOs by using singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented DAOs by using singleton" />
+  </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geeksforless/dao/impl/FileDAOUtils.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/geeksforless/service/impl/ProducerServiceImplTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
