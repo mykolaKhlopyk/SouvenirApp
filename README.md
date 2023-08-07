@@ -20,7 +20,7 @@ GeeksForLess module
 - getProducersOfSouvenirNameCreatedAt(String souvenirName, int year)
 - getMapYearSouvenirs()
 
-##Technologies
+## Technologies
 - java17
 - maven
 - junit5
